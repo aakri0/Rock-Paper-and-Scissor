@@ -1,1 +1,3 @@
 # Rock-Paper-and-Scissor
+
+This is a simple Rock, Paper and Scissor game made using C++. The game is played between the user and the computer. The user has to choose between Rock, Paper and Scissor and the computer will also choose one of the three. The winner is decided based on the rules of the game. The game is played for a total of 5 rounds and the winner is decided based on the number of rounds won by the user and the computer.
