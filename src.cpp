@@ -14,16 +14,14 @@ int main() {
     //Vector storing the choices
     vector<string> v = {"","R", "P", "S"};
 
-    //User input
-    string user;
-    cout << "Enter your choice:(R, P and S) ";
-    cin >> user;
-
     //Game Logic
     int n = 5;
     int user_score = 0;
     int cmp_score = 0;
     while(n--) {
+        string user;
+        cout << "Enter your choice:(R, P and S) ";
+        cin >> user;
         if(user == "R" && v[rnd] == "S") {
             cout << "Computer's choice: " << v[rnd] << endl;
             cout << "You Win!" << endl;
